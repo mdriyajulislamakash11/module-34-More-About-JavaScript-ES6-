@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #f0f4f8;
+          font-family: Arial, sans-serif;
+        }
+      
+        #container div {
+          background-color: #fff;
+          padding: 30px;
+          border-radius: 15px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          width: 300px;
+        }
+      
+        h1 {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+      
+        input[type="text"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border-radius: 8px;
+          border: 1px solid #ccc;
+        }
+      
+        button {
+          padding: 10px 20px;
+          background-color: #4f46e5;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+      
+        button:hover {
+          background-color: #4338ca;
+        }
+      
+        #error {
+          margin-top: 10px;
+          color: red;
+        }
+      </style>
+  </head>
+  <body>
+    <section id="container">
+      <div>
+        <h1>Create Custom Error using Try and Catch</h1>
+        <p>Email: hafeinaiVymadakash@gmail.com</p>
+        <input type="text" id="age" placeholder="Enter age between 18-30" />
+        <button onclick="checkAge()" type="submit">Submit</button>
+        <p id="error"></p>
+      </div>
+    </section>
+
+    <script src="even-loop-6.js"></script>
     <!-- <script src="async-3.js"></script> -->
     <!-- <script src="async-4.js"></script> -->
     <!-- <script src=""></script> -->
-    <script src="interval-5.js"></script>
-</body>
+    <!-- <script src="interval-5.js"></script> -->
+  </body>
 </html>
