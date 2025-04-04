@@ -13,4 +13,4 @@ function checkAge() {
         console.log("all done")
     }
     console.log(11111)
-}
+};
