@@ -1,4 +1,4 @@
-// 34-3 Single-threaded, Asynchronous vs Synchronous
+// 34-4 Promies and async / await
 
 const myLoader = () => {
   return new Promise((resolve, reject) => {
